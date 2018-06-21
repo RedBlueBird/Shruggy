@@ -10,7 +10,7 @@ from discord.ext import commands
 
 #start ===========================================================================================================================================================
 
-TOKEN = "NDU0MDc2MTIzMDg1Nzk5NDI0.Df3hCw.wGi3dldBW39hvE_I0eJKj-QLmEc"
+TOKEN = ""
 
 client = commands.Bot(command_prefix="s!")
 
