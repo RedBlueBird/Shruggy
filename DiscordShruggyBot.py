@@ -12,6 +12,8 @@ from discord.ext import commands
 
 client = commands.Bot(command_prefix="s!")
 
+BOT_TOKEN = str(TOKEN)
+
 client.remove_command("help")
 
 registered_users = ['SkilledPlayz#2990', 'Blue Bird#8805', 'Rick426463#6983', 'KrioXGaminz#6829']
@@ -438,4 +440,4 @@ async def get_a_joke(context):
 
 #end ========================================================================================================================================================
 
-client.run("TOKEN")
+client.run(BOT_TOKEN)
