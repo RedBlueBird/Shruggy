@@ -14,9 +14,9 @@ client = commands.Bot(command_prefix="s!")
 
 client.remove_command("help")
 
-registered_users = ALL_USERS
+registered_users = ['SkilledPlayz#2990', 'Blue Bird#8805', 'Rick426463#6983', 'KrioXGaminz#6829']
 
-users_info = ALL_INFOS
+users_info = {'SkilledPlayz#2990': {'exp': 32, 'coins': 12, 'lvl': 3}, 'Blue Bird#8805': {'exp': 139, 'coins': 1, 'lvl': 7}, 'Rick426463#6983': {'exp': 0, 'coins': 0, 'lvl': 1}, 'KrioXGaminz#6829': {'exp': 1, 'coins': 0, 'lvl': 1}}
 
 #Simple coin system ----------------------------------------------------------------------------------------------------
 @client.command(pass_context=True)
