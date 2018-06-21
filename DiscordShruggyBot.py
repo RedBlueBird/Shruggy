@@ -435,13 +435,6 @@ async def get_a_joke(context):
         await client.say(embed=embed)
         if 1 == 2:
             await client.say(len(possible_jokes))
-        
-#if online ------------------------------------------------------------------------------------------------------------------
-@client.event
-async def on_ready():
-    print("Bot is online!")
-    for messages in client.messages:
-        print(messages)
 
 #end ========================================================================================================================================================
 
