@@ -10,15 +10,13 @@ from discord.ext import commands
 
 #start ===========================================================================================================================================================
 
-TOKEN = ""
-
 client = commands.Bot(command_prefix="s!")
 
 client.remove_command("help")
 
-registered_users = ['SkilledPlayz#2990', 'Blue Bird#8805', 'Rick426463#6983']
+registered_users = ALL_USERS
 
-users_info = {'SkilledPlayz#2990': {'exp': 32, 'coins': 12, 'lvl': 3}, 'Blue Bird#8805': {'exp': 130, 'coins': 1, 'lvl': 7}, 'Rick426463#6983': {'exp': 0, 'coins': 0, 'lvl': 1}}
+users_info = ALL_INFOS
 
 #Simple coin system ----------------------------------------------------------------------------------------------------
 @client.command(pass_context=True)
