@@ -1,1 +1,1 @@
-worker: python shruggy.py
+worker: python DiscordShruggyBot.py
